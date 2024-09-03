@@ -1,0 +1,102 @@
+body{
+    background: url("../img/trama.jpg") no-repeat top center;
+    background-size: cover;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.line_break{
+    background: #fff;
+    height: 2px;
+    margin: 1.3rem 6rem;
+}
+
+.gmail_content{
+    display: inline;
+    vertical-align: middle;
+}
+
+.header_image{
+    padding: 1.5rem 0 1rem 6rem;
+    padding-right: .8rem;
+}
+
+.header_title{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.container_search{
+    padding: .5rem 0 1rem 6rem;
+}
+
+.search{
+    padding-bottom: 2.5rem;
+}
+
+.send{
+    width: 2.5rem;
+    padding: .3rem;
+    border-radius: .4rem;
+}
+
+.enter{
+    padding: .3rem;
+    width: 13%;
+}
+
+.content_search{
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.mark_span{
+    border: 1px solid transparente;
+    background-color: orange;
+    border-radius: 50%;
+    padding: 1rem;
+    margin: 0 .3rem;
+}
+
+.oggetto_email{
+    border: 2px solid #000;
+    width: 90%;
+    background-color: rgb(198, 195, 195);
+    margin-left: 6rem;
+    padding: .7rem 0;
+}
+
+.oggetto_content{
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    font-weight: 800;
+}
+
+.text-gray-50{
+    color: gray;
+}
+
+.color_white{
+    background-color: #fff;
+}
+
+.footer{
+    text-align: center;
+    color: #fff;
+}
+
+.footer_content{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.footer_text_xs{
+    font-size: 1rem;
+}
+
