@@ -10,7 +10,7 @@ body{
     box-sizing: border-box;
 }
 
-.line_break{
+.page-divider{
     background: #fff;
     height: 2px;
     margin: 1.3rem 6rem;
@@ -21,7 +21,7 @@ body{
     vertical-align: middle;
 }
 
-.header_image{
+.header_logo{
     padding: 1.5rem 0 1rem 6rem;
     padding-right: .8rem;
 }
@@ -32,31 +32,31 @@ body{
     font-weight: 700;
 }
 
-.container_search{
+.primary-section{
     padding: .5rem 0 1rem 6rem;
 }
 
-.search{
+.search-container{
     padding-bottom: 2.5rem;
 }
 
-.send{
+.search-field{
+    padding: .3rem;
+    width: 13%;
+}
+
+.search-submit{
     width: 2.5rem;
     padding: .3rem;
     border-radius: .4rem;
 }
 
-.enter{
-    padding: .3rem;
-    width: 13%;
-}
-
-.content_search{
+.search-title-wrapper{
     color: #fff;
     font-size: 2.5rem;
 }
 
-.mark_span{
+.search-title-highlight{
     border: 1px solid transparente;
     background-color: orange;
     border-radius: 50%;
@@ -64,7 +64,7 @@ body{
     margin: 0 .3rem;
 }
 
-.oggetto_email{
+.card-section{
     border: 2px solid #000;
     width: 90%;
     background-color: rgb(198, 195, 195);
@@ -72,21 +72,21 @@ body{
     padding: .7rem 0;
 }
 
-.oggetto_content{
+.item-description{
     font-size: 1.5rem;
     padding-left: 1rem;
     font-weight: 800;
 }
 
-.text-gray-50{
+.text-highlight{
     color: gray;
 }
 
-.color_white{
+.card-highlight{
     background-color: #fff;
 }
 
-.footer{
+.footer-container{
     text-align: center;
     color: #fff;
 }
